@@ -705,7 +705,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1305.6,-209.3,2729.3999999999996,467.2);
+p.nominalBounds = new cjs.Rectangle(-1305.6,-209.2,2729.3999999999996,467.09999999999997);
 
 
 (lib._main_320 = function(mode,startPosition,loop,reversed) {
@@ -823,13 +823,13 @@ if (reversed == null) { reversed = false; }
 			
 				_main.fon.x = nowW/2;
 			
-				if(nowW >= 728&& nowW < 8192){
+				if(nowW >= 1250&& nowW < 8192){
 				_main.banner_big.visible = true;
 				_main.banner_mini.visible = false;
 				_main.banner_big.x = nowW/2;
 				}
 			
-				if(nowW >= 320 && nowW < 728){
+				if(nowW >= 320 && nowW < 1250){
 				_main.banner_big.visible = false;
 				_main.banner_mini.visible = true;
 				_main.banner_mini.x = nowW/2;
@@ -867,7 +867,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(2746,47.6,104,320.2);
+p.nominalBounds = new cjs.Rectangle(2746,47.7,104,320.1);
 // library properties:
 lib.properties = {
 	id: 'E9B8AB9FF212474ABDDFEE9BBAB6A08A',
